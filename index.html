@@ -6,21 +6,32 @@
 <title>Ρεβεγιόν Πρωτοχρονιάς</title>
 
 <style>
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Georgia', serif;
-    background: #000;
-    color: #f5e6c8;
-    text-align: center;
-}
+/*
+Source - https://stackoverflow.com/a
+Posted by web-tiki, modified by community. See post 'Timeline' for change history
+Retrieved 2025-12-31, License - CC BY-SA 4.0
+*/
 
+html,body{
+    margin:0;
+    height:100%;
+    overflow:hidden;
+}
+img{
+    min-height:100%;
+    min-width:100%;
+    height:auto;
+    width:auto;
+    position:absolute;
+    top:-100%; bottom:-100%;
+    left:-100%; right:-100%;
+    margin:auto;
+}
 .container {
     max-width: 480px;
     margin: auto;
     padding: 20px;
-    background: linear-gradient(to bottom, #000000cc, #000000cc),
-                url('new%20year%20eve.png');
+    background: url('new%20year%20eve.png');
     background-size: cover;
     background-position: center;
     border: 1px solid #c9a24d;
@@ -77,8 +88,14 @@ h1 {
 
 <body>
 
-<div class="container">
+<div class="containerr">
+<!--
+Source - https://stackoverflow.com/a
+Posted by web-tiki, modified by community. See post 'Timeline' for change history
+Retrieved 2025-12-31, License - CC BY-SA 4.0
+-->
 
+<img src="new%20year%20eve.png" alt="">
 </div>
 
 </body>
